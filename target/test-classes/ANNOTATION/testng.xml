@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test name="Test">
+    <groups>
+       <run>
+            <include name="sanity"></include> 
+            <exclude name="regression"></exclude>
+       
+       
+       
+       </run>
+   </groups>
+  
+  
+  
+    <classes>
+      <class name="ANNOTATION.GROUPING_DEMO"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-05T10:26:43 IST" name="Default suite" finished-at="2024-04-05T10:27:03 IST" duration-ms="19967">
+    <groups>
+    </groups>
+    <test started-at="2024-04-05T10:26:43 IST" name="Default test" finished-at="2024-04-05T10:27:03 IST" duration-ms="19967">
+      <class name="PAGE_OBJECT_MODEL.LOGIN_TEST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PAGE_OBJECT_MODEL.LOGIN_TEST@6d763516]" started-at="2024-04-05T10:26:43 IST" name="setup" finished-at="2024-04-05T10:27:01 IST" duration-ms="17304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Logo_Check()[pri:1, instance:PAGE_OBJECT_MODEL.LOGIN_TEST@6d763516]" started-at="2024-04-05T10:27:01 IST" name="Logo_Check" finished-at="2024-04-05T10:27:01 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_Check -->
+        <test-method signature="TestLogin()[pri:2, instance:PAGE_OBJECT_MODEL.LOGIN_TEST@6d763516]" started-at="2024-04-05T10:27:01 IST" name="TestLogin" finished-at="2024-04-05T10:27:03 IST" duration-ms="2290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PAGE_OBJECT_MODEL.LOGIN_TEST@6d763516]" started-at="2024-04-05T10:27:03 IST" name="teardown" finished-at="2024-04-05T10:27:03 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PAGE_OBJECT_MODEL.LOGIN_TEST -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

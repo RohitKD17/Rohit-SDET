@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" name="EdgeTest">
+  
+    <parameter name="browser" value="edge">
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login">
+    
+    
+    </parameter></parameter>
+    
+    <classes>
+      <class name="ANNOTATION.parameter_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="ChromeTest">
+  
+    <parameter name="browser" value="chrome">
+     <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login">
+    
+    
+    </parameter>
+    
+    
+    </parameter>
+    
+    <classes>
+      <class name="ANNOTATION.parameter_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
