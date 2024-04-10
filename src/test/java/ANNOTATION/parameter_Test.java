@@ -57,7 +57,7 @@ public class parameter_Test {
 		}
 	}
 	
-	void testlogin()
+	void testlogin() throws Throwable
 	{
 		Thread.sleep(3000);
 		driver.findElement(By.name("username")).sendKeys("Admin");

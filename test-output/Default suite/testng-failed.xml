@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PAGE_OBJECT_MODEL.LOGIN_TEST">
+      <class name="TESTNG.ThirdTest">
         <methods>
-          <include name="Logo_Check"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="Closeapp"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- PAGE_OBJECT_MODEL.LOGIN_TEST -->
+      </class> <!-- TESTNG.ThirdTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
